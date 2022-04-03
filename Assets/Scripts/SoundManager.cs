@@ -26,6 +26,7 @@ public class SoundManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(Instance);
+        Instance.musicSource.volume = 0;
     }
 
     public void PlaySingle(AudioClip audioClip)
@@ -40,7 +41,7 @@ public class SoundManager : MonoBehaviour
         {
             StopCoroutine(nameof(FadeRoutine));
             musicSource.Stop();
-            musicSource.volume = 1;
+            //musicSource.volume = 1;
             isFading = false;
         }
         musicSource.clip = audioClip;
@@ -77,8 +78,9 @@ public class SoundManager : MonoBehaviour
         }
 
         musicSource.Stop();
-        musicSource.volume = 1;
+        //musicSource.volume = 1;
 
         isFading = false;
+        yield return null;
     }
 }
