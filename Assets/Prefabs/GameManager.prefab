@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3905822502798365559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2530386381127225909}
+  - component: {fileID: 6599362955868604426}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2530386381127225909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3905822502798365559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6599362955868604426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3905822502798365559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5157818fbba3f24083fea2c0be54206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: {fileID: 1842379891244236302, guid: 620d1439781adbf4486b581b0301d39f, type: 3}
+  soap: {fileID: 2648645130969150195, guid: bb5eb263ef60f0d4cb1f89df391671b9, type: 3}
+  broom: {fileID: 5255955516114000182, guid: ef0b6ab3dfe50824b9e99cdf36175882, type: 3}
+  poop: {fileID: 5595112140741143438, guid: ba471d2ca3d69414b88549399a094460, type: 3}
+  harmfulObjects:
+  - {fileID: 6663367468747450958, guid: c8ce285032488004d96a97644a0da0a5, type: 3}
+  - {fileID: 4513353249838682482, guid: 35049c8014c4b284ebfd2bd8cc50fd8d, type: 3}
+  - {fileID: 5589266939410489515, guid: 835ffffaf6f83884f9119fe52188ba35, type: 3}
+  days: 0
+  animalHealth: 0
+  isHappy: 0
+  isSad: 0
+  doingSetup: 0
+  isNewDay: 0
+  satisfaction: 0
+  hasSpawnedObject: 0
+  calmMusic: {fileID: 8300000, guid: 3b9b494bd7a70a641aa08c566dde8f66, type: 3}
+  dynamicMusic: {fileID: 8300000, guid: f670afc406d963e47bcc4f70d4715951, type: 3}
+  sadMusic: {fileID: 8300000, guid: d3552f8795f451b49ae2e791bfb71555, type: 3}

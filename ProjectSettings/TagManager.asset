@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Food
+  - Washing
+  - Poop
+  - Broom
   layers:
   - Default
   - TransparentFX
@@ -11,9 +15,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Background
+  - Characters
+  - UI Top
   - 
   - 
   - 
@@ -40,4 +44,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1912685577
+    locked: 0
+  - name: Front Background
+    uniqueID: 3406936667
+    locked: 0
+  - name: Characters
+    uniqueID: 527399283
+    locked: 0
+  - name: Front
+    uniqueID: 393203601
     locked: 0

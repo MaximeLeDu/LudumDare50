@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AnimalHurt1
+  m_Controller: {fileID: 9100000, guid: 6869bc5fef2952644afc54f84dd481f5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c351dc2a8e0f1e0488ac9ac8afbc014b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 53ce3df0088bfa34f9da42fc4c749d53, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f8369a2d82c44a546b84450166c838b8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 60c239e8d60b2ff4d9d69f38ac18191f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cb7b46cd187e2544dae894a56e76ebdd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4a3c54c1a2af85046846732b4345644e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4800771a9a25e66478708d72db9ae679, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 63a2493e29db7f64da67afcae9a17b72, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 393853a69c7e5b14d8f29203db7613cb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 477e797abded7154589f5b084ad0d0b9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8af32cfbcf45a0245a023783be567267, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 781eb19045e41f448a496691a6b4f747, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e6d039474265de24a990edd0285bf38e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e4b540774b74d1f42a63d62e966969e2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 57de43007eb762640bef757eecd706b3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 37015fe867499c14dbc1b142762f545b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b2e5366ca37a6c34f85b7d43103c52e6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cd256a5a7285b674c96b7f18439c20c1, type: 2}
